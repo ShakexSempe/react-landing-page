@@ -1,12 +1,23 @@
 .slider {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 10vh 10vw;
 
     opacity: 0;
     transform: scale(85%);
     transition: 1.5s;
+    position: relative;
 }
+/* .slider::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+} */
 
 .slider--zoom {
     opacity: 1;
@@ -16,6 +27,7 @@
 
 .slider_image {
     width: 60%;
+    border-radius: 3px;
 }
 
 /* flex: 1 allows slider content to take up remaining space not taken up by the image(width=60%) */
@@ -26,9 +38,12 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .slider_title {
-    text-align: center;
+    text-align: left;
+    margin-bottom: .3em;
+    font-size: 2em;
 }
+
