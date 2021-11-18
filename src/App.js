@@ -1,14 +1,23 @@
 import './App.css';
 import hero from "./assets/hero.jpg";
 import syntex_1 from "./assets/syntex-1.jpg";
-import syntex_2 from "./assets/syntex-2.jpg";
-import Hero from "./components/Hero"
+import syntex_3 from "./assets/syntex-3.jpg";
+import Hero from "./components/Hero";
+import Slider from "./components/Slider";
 
 
 function App() {
   return (
     <div className="App">
       <Hero imageSrc={hero}/>
+      <Slider imageSrc={syntex_1} title={"Responsive Web Design"} 
+              subtitle={"We make responsive websites for devices ranging from small smartphones to large display screens"
+              }/>
+      <Slider imageSrc={syntex_3} title={"Immersive User Interface and User Experience"} 
+              subtitle={"Syntex uses transitions and animations to create beautiful pages users enjoy"
+              }
+              flipped={true}
+              />
     </div>
   );
 }

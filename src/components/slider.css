@@ -2,6 +2,16 @@
     display: flex;
     align-items: center;
     margin: 20px;
+
+    opacity: 0;
+    transform: scale(85%);
+    transition: 1.5s;
+}
+
+.slider--zoom {
+    opacity: 1;
+    transform: scale(100%);
+    transition: 1.5s;
 }
 
 .slider_image {
@@ -11,4 +21,14 @@
 /* flex: 1 allows slider content to take up remaining space not taken up by the image(width=60%) */
 .slider_content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.slider_title {
+    text-align: center;
 }
