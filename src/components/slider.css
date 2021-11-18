@@ -1,0 +1,14 @@
+.slider {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.slider_image {
+    width: 60%;
+}
+
+/* flex: 1 allows slider content to take up remaining space not taken up by the image(width=60%) */
+.slider_content {
+    flex: 1;
+}
