@@ -10,7 +10,7 @@ const { ref, inView, entry } = useInView({
 });
 
     return (
-        <div className={inView ? "footer footer--zoom" : "footer"} ref={ref}>
+        <div className={inView ? "footer footer--zoom" : "footer"} ref={ref} id="contact">
             <h1 className="footer_title">Syntex  <span className="footer_title_span">web development</span></h1>
             <p>copyright&copy; Boitumelo Sempe</p>
             <p>@ ShakexSempe</p>

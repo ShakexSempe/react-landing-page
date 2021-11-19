@@ -10,8 +10,8 @@ import Footer from "./components/Footer";
 // navbar links 
 const navbarLinks = [
   { url: "#", title: "Home"},
-  { url: "#", title: "About"},
-  { url: "#", title: "Contact"},
+  { url: "#slider", title: "About"},
+  { url: "#contact", title: "Contact"},
 ]
 
 
