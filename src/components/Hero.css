@@ -24,3 +24,15 @@
     text-transform: capitalize;
     color: #fffa;
 }
+
+@media screen and (max-width: 768px) {
+    .hero_title {
+        position: sticky;
+        bottom: 50vh;
+        right: 0;
+        font-size: 3rem;
+    }
+    .hero_title span {
+        font-size: 1.5rem;
+    }
+}

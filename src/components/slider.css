@@ -47,3 +47,17 @@
     font-size: 2em;
 }
 
+@media screen and (max-width: 800px) {
+    .slider {
+        flex-direction: column;
+        background-color: #f4f4f4;
+    }
+
+    .slider_image {
+        width: 100%;
+    }
+
+    .slider_title {
+        font-size: 1.5em;
+    }
+}
