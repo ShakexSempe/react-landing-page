@@ -7,7 +7,7 @@ const Slider = ({imageSrc, title, subtitle, flipped}) => {
     // intersectional observer
     const { ref, inView, entry } = useInView({
         /* Optional options */
-        threshold: .4,
+        threshold: .3,
     });
     // function
     let renderContent = () => {

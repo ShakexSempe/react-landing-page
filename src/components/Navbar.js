@@ -12,6 +12,7 @@ const Navbar = ({navbarLinks}) => {
 
     const toggleMenuClick = () => {
         setMenuClicked(!menuClicked);
+        
     };
 
     return (
