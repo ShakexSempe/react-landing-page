@@ -22,8 +22,8 @@ function App() {
       <Slider imageSrc={syntex_1} title={"Responsive Web Design"} 
               subtitle={"We make responsive websites for devices ranging from small smartphones to large display screens"
               }/>
-      <Slider imageSrc={syntex_3} title={"Immersive User Interface and User Experience"} 
-              subtitle={"Syntex uses transitions and animations to create beautiful pages users enjoy"
+      <Slider imageSrc={syntex_3} title={"User Interface & User Experience"} 
+              subtitle={"Syntex uses transitions and animations to create beautiful user interface and immersive user experience"
               }
               flipped={true}
               />
