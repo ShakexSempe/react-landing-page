@@ -5,6 +5,7 @@ import syntex_3 from "./assets/syntex-3.jpg";
 import Hero from "./components/Hero";
 import Slider from "./components/Slider";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // navbar links 
 const navbarLinks = [
@@ -27,6 +28,7 @@ function App() {
               }
               flipped={true}
               />
+      <Footer />
     </div>
   );
 }

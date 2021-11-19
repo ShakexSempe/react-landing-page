@@ -1,0 +1,50 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 5vh 5vw;
+    opacity: 0;
+    transition: 1s ease;
+}
+.footer--zoom {
+    opacity: 1;
+}
+.footer_title {
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+    padding-bottom: .5em;
+    font-family: 'Kaushan Script', cursive;
+}
+.footer_title span {
+    font-size: .5em;
+}
+
+.footer p {
+    color: #f4f4f4;
+}
+
+.footer span {
+    display: block;
+    color: #eee;
+    margin: .5em 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 5vh 0;
+    }
+    .footer_title {
+        font-size: 1.8em;
+    }
+    .footer_title span {
+
+        font-size: 1em;
+    }
+    .footer span {
+        font-size: .8em;
+    }
+
+}
