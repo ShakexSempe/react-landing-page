@@ -8,48 +8,51 @@
     opacity: 0;
     transition: 1.5s ease;
     text-transform: capitalize;
+    position: relative;
 }
 .footer--zoom {
     opacity: 1;
     min-height: 100vh;
 }
 .footer_logo {
-    background-image: linear-gradient(30deg, #dc143c, rgba(63, 63, 63, 0.699), #fff, skyblue);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 300%;
-    background-position: 0%;
-        letter-spacing: .2em;
-        font-size: 4em;
+    color: skyblue;
+    letter-spacing: .2em;
+    font-size: 4em;
     font-weight: 900;
     text-transform: capitalize;
     padding: 0;
-    font-family: 'Kaushan Script', cursive;
-    padding-top: 30vh;
+    font-family: 'Kaushan Script',cursive;
+    padding-top: 5vh;
     margin-bottom: .5em;
-    animation: logo 8s infinite alternate;
 }
 
-@keyframes logo {
-    50% {
-        background-position: 100%;
-    }
-}
 .footer_title {
     color: #ddd;
     font-size: 1.5em;
     margin-bottom: 5vh;
 }
 
-.footer p {
+.footer .copyright-div {
+    position: absolute;
+    width: 100%;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+}
+
+.footer .copyright-div p {
     color: #f4f4f4;
 }
 .footer .git-link a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: skyblue;
     padding: .5em 0;
+    transition: .2s ease;
+}
+.git-link a:hover {
+    color: #fff;
 }
 .footer span {
     display: block;
@@ -60,10 +63,11 @@
 @media screen and (max-width: 768px) {
     .footer {
         padding: 5vh 0;
+        margin-top: 5vh;
     }
     .footer_logo {
         font-size: 3.5em;
-        padding-top: 40vh;
+        padding-top: 15vh;
     }
     .footer_title {
         font-size: 1.5em;

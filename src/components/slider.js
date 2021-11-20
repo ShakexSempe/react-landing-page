@@ -7,14 +7,14 @@ const Slider = ({imageSrc, title, subtitle, flipped}) => {
     // intersectional observer
     const { ref, inView, entry } = useInView({
         /* Optional options */
-        threshold: .3,
+        threshold: .25,
     });
     // function
     let renderContent = () => {
 
         if(!flipped) {
             return <>
-                <img src={imageSrc} alt="laptop" className="slider_image"/>
+                <img src={imageSrc} alt="laptop" className="slider_image top_image"/>
                 <div className="slider_content">
                     <h1 className="slider_title">{title}</h1>
                     <p className="slider-subtitle">{subtitle}</p>
