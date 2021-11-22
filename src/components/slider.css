@@ -2,11 +2,12 @@
     display: flex;
     align-items: center;
     margin: 5vh 10vw;
-    padding: 5vh 0;
+    padding: 5vh .5em;
     opacity: 0;
     transform: scale(85%);
     transition: 1.5s;
     position: relative;
+    background-color: #fff;
 }
 
 .slider--zoom {
