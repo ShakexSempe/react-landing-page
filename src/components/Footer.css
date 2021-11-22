@@ -26,9 +26,12 @@
     padding-top: 5vh;
     margin-bottom: .5em;
     transform: translateX(-100%);
-    transition: 1.5s;
+    transition: 1s;
+    transition-delay: .5s;
+    opacity: 0;
 }
 .footer--zoom .footer_logo {
+    opacity: 1;
     transform: translateX(0);
 }
 
@@ -36,8 +39,16 @@
     color: #ddd;
     font-size: 1.5em;
     margin-bottom: 5vh;
-}
+    transform: translateX(-100%);
+    transition: 1s;
+    transition-delay: .7s;
+    opacity: 0;
 
+}
+.footer--zoom .footer_title {
+    transform: translateX(0);
+    opacity: 1;
+}
 .footer_social {
     display: flex;
     justify-content: center;
@@ -56,6 +67,7 @@
     transition: .5s;
     border-radius: 100%;
     transform: scale(30%);
+    opacity: 0;
 }
 
 .social_link:hover {
@@ -66,6 +78,7 @@
 .footer--zoom .social_link {
     transition: 1s ease;
     transform: scale(1);
+    opacity: 1;
 }
 .footer--zoom .social_link:nth-child(1) {
     transition-delay: 1s;
