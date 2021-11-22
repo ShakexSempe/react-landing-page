@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     margin: 5vh 10vw;
-    padding: 5vh .5em;
+    padding: 1em .5em;
     opacity: 0;
     transform: scale(85%);
     transition: 1.5s;
