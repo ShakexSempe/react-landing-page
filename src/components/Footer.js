@@ -24,7 +24,7 @@ const { ref, inView, entry } = useInView({
             <div className="copyright-div">
                 <p>copyright&copy; Boitumelo Sempe</p>
                 <p className="git-link"><a href="https://github.com/ShakexSempe" target="_blank">@ ShakexSempe</a></p>
-                <span> 2021 </span>
+                <span>{new Date().getFullYear()}</span>
             </div>
         </div>
     )
