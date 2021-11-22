@@ -36,7 +36,7 @@
 }
 
 .footer_title {
-    color: #ddd;
+    color: #f4f4f4;
     font-size: 1.5em;
     margin-bottom: 5vh;
     transform: translateX(-100%);
@@ -59,21 +59,26 @@
     margin: 0 auto;
     padding: 1em;
     gap: 1.5em;
+    border: none;
+    outline: none;
+    box-shadow: inset 2px 2px 3px #fffa,
+                inset -2px -2px 3px #000a;
 }
+
 
 .social_link {
     font-size: 2em;
     cursor: pointer;
-    transition: .5s;
+    transition: .2s ease;
     border-radius: 100%;
     transform: scale(30%);
     opacity: 0;
 }
 
 .social_link:hover {
-    color: skyblue;
+    fill: skyblue;
     background-color: #333;
-    /* border-radius: 50%; */
+    transition: all .2s ease;
 }
 .footer--zoom .social_link {
     transition: 1s ease;
