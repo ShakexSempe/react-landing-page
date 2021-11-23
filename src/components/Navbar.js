@@ -12,8 +12,8 @@ const Navbar = ({navbarLinks}) => {
 
     const toggleMenuClick = () => {
         setMenuClicked(!menuClicked);
-        
     };
+    
 
     return (
         <nav className="navbar">
@@ -30,8 +30,8 @@ const Navbar = ({navbarLinks}) => {
             <ul className={!menuClicked ? "navbar_list" : "navbar_list navbar_list--active"}> 
             {navbarLinks.map((item) => {
                 return <li className="navbar_item" key={item.title}>
-                    <a className="navbar_link" href={item.url}>
-                        {item.title}
+                    <a className="navbar_link" href={item.url} onClick={toggleMenuClick}>
+                        {item.title} 
                     </a>
                 </li>
             })}
