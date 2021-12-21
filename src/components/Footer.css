@@ -17,12 +17,10 @@
 }
 .footer_logo {
     color: #ead2a1;
-    letter-spacing: .2em;
     font-size: 3em;
     font-weight: 900;
     text-transform: capitalize;
     padding: 0;
-    font-family: 'Kaushan Script',cursive;
     padding-top: 5vh;
     margin-bottom: .5em;
     transform: translateX(-100%);
