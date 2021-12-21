@@ -16,9 +16,9 @@
     /* min-height: 100vh; */
 }
 .footer_logo {
-    color: skyblue;
+    color: #ead2a1;
     letter-spacing: .2em;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
     text-transform: capitalize;
     padding: 0;
@@ -36,7 +36,7 @@
 }
 
 .footer_title {
-    color: #fffa;
+    color: #ddd;
     font-size: 1.5em;
     margin-bottom: 5vh;
     transform: translateX(-100%);
@@ -82,9 +82,9 @@
 }
 
 .social_link:hover {
-    fill: skyblue;
+    fill: #ead2a1;
     background-color: #333;
-    transition: all .2s ease;
+    transform: scale(100%);
 }
 .footer--zoom .social_link {
     transition: 1s ease;
@@ -121,12 +121,12 @@
 .footer .git-link a {
     display: block;
     text-decoration: none;
-    color: skyblue;
+    color: #ead2a1;
     padding: .5em 0;
     transition: .2s ease;
 }
 .git-link a:hover {
-    color: #fff;
+    color: skyblue;
 }
 .footer span {
     display: block;
@@ -140,7 +140,7 @@
         margin-top: 5vh;
     }
     .footer_logo {
-        font-size: 3.5em;
+        font-size: 2em;
         margin-top: 20vh;
         padding: 0;
     }

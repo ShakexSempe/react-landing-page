@@ -18,7 +18,7 @@
     position: absolute;
     top: 50vh;
     right: 10%;
-    color: #fff;
+    color: #ead2a1;
     font-size: 4rem;
     padding: 15px;
     /* border: 2px solid #f4f4f4; */
@@ -31,21 +31,22 @@
     display: block;
     font-size: 2rem;
     text-transform: capitalize;
-    color: #fffa;
+    color: #ddd;
 }
 
 @media screen and (max-width: 768px) {
     .hero_title {
         text-align: center;
-        font-size: 3rem;
-        letter-spacing: .1em;
+        font-size: 1.8rem;
         background-color: #000a;
         position: sticky;
         top: 45vh;
-        margin: 0vh 10vw 5vh;
-        padding: .3em 0;
+        margin: 0vh 5vw 20vh;
+        padding: .5em .1em;
     }
     .hero_title span {
+        display: block;
+        margin: .5em 0 1em;
         font-size: 1.5rem;
         letter-spacing: normal;
     }

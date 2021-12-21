@@ -17,7 +17,7 @@ const Navbar = ({navbarLinks}) => {
 
     return (
         <nav className="navbar">
-            <a className="navbar_logo" href="#contact">syntex</a>
+            <a className="navbar_logo" href="#contact">shakex<span>Sempe</span> </a>
         {/* if menuClicked then show X icon else if not clicked then show menu icon */}
             {menuClicked ? (
                 <FiX size={25} className="navbar_menu" onClick={toggleMenuClick}/>

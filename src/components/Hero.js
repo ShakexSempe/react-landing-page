@@ -5,7 +5,7 @@ const Hero = ({imageSrc}) => {
     return (
         <div className="hero">
             <img src={imageSrc} alt="syntex" className="hero_image" />
-            <h1 className="hero_title">Syntex <span>web development</span></h1>
+            <h1 className="hero_title">Shakex Sempe <span>front end developer</span></h1>
         </div>
     )
 };
