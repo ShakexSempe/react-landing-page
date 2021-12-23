@@ -24,7 +24,7 @@ function App() {
               subtitle={"I code responsive websites for devices ranging from small smartphones to large display screens"
               }/>
       <Slider imageSrc={syntex_3} title={"User Interface & User Experience"} 
-              subtitle={"I applying CSS3 transitions and animations to create beautiful user interface and immersive user experience"
+              subtitle={"I apply CSS3 transitions and animations to create clean user interface and immersive user experience"
               }
               flipped={true}
               />

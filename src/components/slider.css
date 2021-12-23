@@ -1,7 +1,7 @@
 .slider {
     display: flex;
     align-items: center;
-    margin: 5vh 10vw;
+    margin: 20vh 10vw 5vh;
     padding: 1em .5em;
     opacity: 0;
     transform: scale(85%);
@@ -43,7 +43,7 @@
         flex-direction: column;
         background-color: #fffa;
         text-align: center;
-        margin: 1em 10vw;
+        margin: 1em 10vw 5vh;
         padding: 0;
     }
     
@@ -51,9 +51,9 @@
     .slider_image {
         width: 100%;
     }
-    .top_image {
-        margin-top: 5vh;
-    }
+    /* .top_image {
+        margin: 5vh 0;
+    } */
     .slider_title {
         font-size: 1.3em;
         margin-bottom: .5em;
