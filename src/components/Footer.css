@@ -6,6 +6,7 @@
     bottom: 0;
     text-align: center;
     padding: 10vh 10vw;
+    margin: 0;
     opacity: 0;
     transition: 1.5s ease;
     text-transform: capitalize;
@@ -135,7 +136,7 @@
 @media screen and (max-width: 768px) {
     .footer {
         padding: 5vh 5vw;
-        margin-top: 5vh;
+        /* margin-top: 5vh; */
     }
     .footer_logo {
         font-size: 2em;

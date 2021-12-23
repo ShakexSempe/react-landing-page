@@ -1,7 +1,7 @@
 .slider {
     display: flex;
     align-items: center;
-    margin: 20vh 10vw 5vh;
+    margin: 10vh 10vw 5vh;
     padding: 1em .5em;
     opacity: 0;
     transform: scale(85%);
@@ -20,7 +20,9 @@
     width: 60%;
     border-radius: 3px;
 }
-
+.top_image {
+    margin: 5vh 0;
+}
 /* flex: 1 allows slider content to take up remaining space not taken up by the image(width=60%) */
 .slider_content {
     flex: 1;
@@ -43,17 +45,16 @@
         flex-direction: column;
         background-color: #fffa;
         text-align: center;
-        margin: 1em 10vw 5vh;
-        padding: 0;
+        margin: 5vh 10vw 5vh;
     }
     
 
     .slider_image {
         width: 100%;
     }
-    /* .top_image {
+    .top_image {
         margin: 5vh 0;
-    } */
+    }
     .slider_title {
         font-size: 1.3em;
         margin-bottom: .5em;
