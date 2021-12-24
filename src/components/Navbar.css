@@ -3,7 +3,7 @@
     top: 0;
     height: 10vh;
     width: 100%;
-    background-color: #000;
+    background-color: #29323c;
     /* opacity: .75; */
     display: flex;
     /* maximize space between logo(span) and the list */
@@ -69,7 +69,7 @@
 }
 
 .navbar_menu {
-    color: #fff;
+    color: #f4f4f4;
     cursor: pointer;
     display: none;
 }
@@ -115,7 +115,7 @@
         align-items: center;
         margin: 0;
         border-width: 0;
-        background-color: #000;
+        background-color: #20262e;
         /* opacity: .85; */
     }
     .navbar_link::before {
@@ -138,13 +138,10 @@
     }
     .navbar_menu:hover {
         transform: scale(.98);
-        color: #ead2a1;
     }
     .navbar_menu:active {
         transition: .2s;
         transform: scale(.9);
-        color: #ead2a1;
     }
-    
 }
 

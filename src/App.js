@@ -1,5 +1,5 @@
 import './App.css';
-import hero from "./assets/hero-min.jpg";
+import hero from "./assets/shakex-logo-min.png";
 import syntex_1 from "./assets/syntex-1.jpg";
 import syntex_3 from "./assets/syntex-3.jpg";
 import Hero from "./components/Hero";

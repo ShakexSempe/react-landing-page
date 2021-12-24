@@ -23,7 +23,7 @@ const Navbar = ({navbarLinks}) => {
                 <FiX size={25} className="navbar_menu" onClick={toggleMenuClick}/>
             
             ) : (
-                <FiMenu size={25} className="navbar_menu" onClick={toggleMenuClick}/>
+                <FiMenu size={25} className="navbar_menu menu-x" onClick={toggleMenuClick}/>
 
                 ) 
             }

@@ -3,8 +3,10 @@
     width: 100%;
     min-height: 100vh;
     margin-bottom: 10vh;
-    background-image: url(/src/assets/hero-min.jpg);
-    background-size: cover;
+    background-image: url(/src/assets/shakex-logo-min.png);
+    background-repeat: no-repeat;
+    background-color: var(--blue);
+    background-size: contain;
     background-position: center;
 }
 .hero_image {
