@@ -7,23 +7,17 @@
     text-align: center;
     padding: 10vh 10vw;
     margin: 0;
-    opacity: 0;
     transition: 1.5s ease;
     text-transform: capitalize;
     position: relative;
 }
-.footer--zoom {
-    opacity: 1;
-    /* min-height: 100vh; */
-}
 .footer_logo {
-    color: #ead2a1;
-    font-size: 3em;
+    color: #b3c0cc;
+    font-size: 1.25rem;
     font-weight: 900;
     text-transform: capitalize;
-    padding: 0;
     padding-top: 5vh;
-    margin-bottom: .5em;
+    margin-bottom: 1rem;
     transform: translateX(-100%);
     transition: 1.5s;
     transition-delay: .5s;
@@ -36,7 +30,7 @@
 
 .footer_title {
     color: #ddd;
-    font-size: 1.5em;
+    font-size: 1rem;
     margin-bottom: 5vh;
     transform: translateX(-100%);
     transition: 1.5s;
@@ -63,8 +57,7 @@
     opacity: 0;
     transition: 1.5s .9s;
     transform: scale(.5);
-    box-shadow: inset 2px 2px 3px #fffa,
-                inset -2px -2px 3px #000a;
+    box-shadow: .125rem .5rem .5rem rgba(0, 0, 0, .25);
 }
 .footer--zoom .footer_social {
     opacity: 1;
@@ -81,7 +74,7 @@
 }
 
 .social_link:hover {
-    fill: #ead2a1;
+    fill: #b3c0cc ;
     background-color: #333;
     transition: fill .1s;
     transform: scale(100%);
@@ -121,7 +114,7 @@
 .footer .git-link a {
     display: block;
     text-decoration: none;
-    color: #ead2a1;
+    color: #b3c0cc;
     padding: .5em 0;
     transition: .2s ease;
 }

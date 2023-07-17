@@ -14,8 +14,8 @@ const { ref, inView, entry } = useInView({
 
     return (
         <div className={inView ? "footer footer--zoom" : "footer"} ref={ref} id="contact">
-            <h1 className="footer_logo">Shakex Sempe</h1>
-            <h2 className="footer_title">front-end web developer</h2>
+            <h1 className="footer_logo">Box Shadow</h1>
+            <h2 className="footer_title">web development</h2>
             <div className="footer_social">
             <FaGithubSquare className="social_link"></FaGithubSquare>
             <FaTwitterSquare className="social_link"></FaTwitterSquare>
